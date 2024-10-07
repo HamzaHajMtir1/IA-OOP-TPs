@@ -1,0 +1,13 @@
+
+public class exe2 {
+
+	public static void main(String[] args) {
+		if(args.length==0)
+			return;
+		int x=Integer.parseInt(args[0]);
+		System.out.print("l'equivlent de "+args[0]+" en minute est "+(x/60));
+		System.out.print("l'equivlent de "+args[0]+" en heure est "+(x/3600));
+		System.out.print("l'equivalent de "+args[0]+" en jour est "+(x/86400));
+	}
+
+}
